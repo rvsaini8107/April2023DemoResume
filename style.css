@@ -1,0 +1,242 @@
+/* font-family: 'Plus Jakarta Sans', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* heading */
+    .container{
+        margin: 7%;
+    }
+    .heading-text-p1{
+    font-size: xxx-large;
+    }
+    .title-div {
+        width: 60%;
+    }
+  .bold-text {
+    font-style: italic;
+  }
+  .title-div-social {
+    display: flex;
+  }
+  .title-div-social {
+    display: flex;
+    justify-content: space-between;
+  }
+  .social-icons {
+    display: flex;
+    position: relative;
+    top: 90px;
+  }
+  .social-icon {
+    width: 40px;
+    border: 1px solid gray;
+    height: 40px;
+    text-align: center;
+    line-height: 43px;
+    border-radius: 30px;
+  }
+  .social-icons {
+    display: flex;
+    position: relative;
+    top: 50px;
+    height: 85%;
+    gap: 10px;
+  }
+  /* main */
+  .main {
+    display: grid;
+    grid-template-columns: 30% auto;
+    margin-top: 5%;
+    gap: 5%;
+  }
+  .profile-image-details {
+    grid-area: 1/1;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 12%;
+  }
+  .div-details {
+    grid-area: 1/2/span 2/span 2;
+    
+  }
+  .user-image {
+    width: 150px;
+    height: 170px;
+  }
+  .user-img {
+    width: 100%;
+    border-radius: 100%;
+    height: 100%;
+  }
+  .text-paragraph {
+    color: gray;
+    font-size: 0.95rem;
+    word-spacing: 12px;
+  }
+  .list-div {
+    display: flex;
+    justify-content: space-between;
+    border-top: 3px solid black;
+    
+    padding: 2% 0px;
+  }
+  .list-div.list-div-3 {
+    border-bottom: 3px solid black;
+    padding-bottom: 15px;
+  }
+  .div-ul-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .button-send-message {
+    text-align: center;
+    border: 2px solid;
+    padding: 2%;
+    margin: 11% 0;
+  }
+
+  .line-div {
+    border: 1px solid black;
+    margin-bottom: 3px;
+  }
+  
+  .big-line-div {
+    border: 2px solid black;
+  }
+ 
+  .experience-heading {
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 1.5%;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: end;
+  }
+  /* experience div */
+  .experience-sub-heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+  }
+  .sub-heading {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  .sub-heading-details-2.sub-heading-details {
+    display: flex;
+    justify-content: end;
+    font-weight: bold;
+  }
+  .sub-heading-details-1.sub-heading-details {
+    font-weight: bold;
+  }
+  .experience-1 {
+    margin: 3% 0;
+  }
+  .div-det {
+    color: gray;
+  }
+  .breaking-div {
+    margin: 5% 0;
+    border-bottom:1px solid #808080a6;
+}
+.sub-heading-div.sub-head-2 {
+    font-size: .8rem;
+  }
+  
+
+  .all-details-in {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 5%;
+    margin: 8% 0;
+  }
+  .card-heading {
+    margin-bottom: 7%;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .card-body.processing-bar {
+    width: 100%;
+    background-color: gray;
+    height: 4px;
+    border-radius: 48px;
+    position: relative;
+  }
+  .card-body.processing-bar::after {
+    content: " ";
+    position: absolute;
+    background-color: black;
+    height: 4px;
+    
+    border-radius: 48px;
+  }
+  .pro-1::after{
+    width: 78%;
+  }
+  .pro-2::after{
+    width: 95%;
+  }
+  .pro-3::after{
+    width: 85%;
+  }
+  .pro-4::after{
+    width: 65%;
+  }
+
+  .border-redius-div{
+    border-radius: 18px;
+    border: 1px solid black;
+    padding: 1%;
+    height: 1rem;
+  }
+  .wid-50{
+    width: 50%;
+  }
+  .font-size-small>p{
+    font-size:small;
+  }
+  .underline-div{
+    background-color: black;
+    width: 100%;
+    height: 2px;
+    margin: 3% 0;
+  }
+  .header-2-div{
+    display: flex;
+    gap: 1%;
+  }
+  .heading-2-title-div {
+    color: white;
+    background-color: black;
+    width: 51px;
+    height: 26px;
+    font-size: small;
+    text-align: center;
+    line-height: 27px;
+    border-radius: 9px;
+  }
+  .heading-2-title {
+    font-size: large;
+    font-weight: bold;
+  }
+  .border-redius-div-white {
+    border: 1px solid gray;
+    display: inline-block;
+    padding: 1% 4%;
+    border-radius: 18px;
+    margin: 1%;
+  }
+  .card.hobby-div {
+    margin: 10% 0;
+  }
