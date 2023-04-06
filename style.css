@@ -240,3 +240,17 @@ body{
   .card.hobby-div {
     margin: 10% 0;
   }
+
+  .social-icon:hover {
+    color: white;
+    background-color: black;
+    border: black;
+    transition: all .3s linear;
+  }
+  .social-icon-hover:hover {
+    color: white;
+    background-color: black;
+    border: black;
+    transition: all .3s linear;
+  }
+
