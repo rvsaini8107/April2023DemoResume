@@ -5,6 +5,15 @@
 }
 body{
     font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 1rem;
+}
+:root{
+  --black:#000;
+  --white:#fff;
+  --gray:#808080;
+  --grayTran:808080a6;
+
+
 }
 
 /* heading */
@@ -34,7 +43,7 @@ body{
   }
   .social-icon {
     width: 40px;
-    border: 1px solid gray;
+    border: 1px solid var(--gray);
     height: 40px;
     text-align: center;
     line-height: 43px;
@@ -75,19 +84,19 @@ body{
     height: 100%;
   }
   .text-paragraph {
-    color: gray;
+    color: var(--gray);
     font-size: 0.95rem;
     word-spacing: 12px;
   }
   .list-div {
     display: flex;
     justify-content: space-between;
-    border-top: 3px solid black;
+    border-top: 3px solid  var(--black);
     
     padding: 2% 0px;
   }
   .list-div.list-div-3 {
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid var(--black);
     padding-bottom: 15px;
   }
   .div-ul-list {
@@ -103,12 +112,12 @@ body{
   }
 
   .line-div {
-    border: 1px solid black;
+    border: 1px solid var(--black);
     margin-bottom: 3px;
   }
   
   .big-line-div {
-    border: 2px solid black;
+    border: 2px solid var(--black);
   }
  
   .experience-heading {
@@ -141,11 +150,11 @@ body{
     margin: 3% 0;
   }
   .div-det {
-    color: gray;
+    color: var(--gray);
   }
   .breaking-div {
     margin: 5% 0;
-    border-bottom:1px solid #808080a6;
+    border-bottom:1px solid var(--grayTran);
 }
 .sub-heading-div.sub-head-2 {
     font-size: .8rem;
@@ -168,7 +177,7 @@ body{
   }
   .card-body.processing-bar {
     width: 100%;
-    background-color: gray;
+    background-color: var(--gray);
     height: 4px;
     border-radius: 48px;
     position: relative;
@@ -176,7 +185,7 @@ body{
   .card-body.processing-bar::after {
     content: " ";
     position: absolute;
-    background-color: black;
+    background-color: var(--black);
     height: 4px;
     
     border-radius: 48px;
@@ -196,7 +205,7 @@ body{
 
   .border-redius-div{
     border-radius: 18px;
-    border: 1px solid black;
+    border: 1px solid var(--black);
     padding: 1%;
     height: 1rem;
   }
@@ -207,7 +216,7 @@ body{
     font-size:small;
   }
   .underline-div{
-    background-color: black;
+    background-color: var(--black);
     width: 100%;
     height: 2px;
     margin: 3% 0;
@@ -217,8 +226,8 @@ body{
     gap: 1%;
   }
   .heading-2-title-div {
-    color: white;
-    background-color: black;
+    color: var(--white);
+    background-color: var(--black);
     width: 51px;
     height: 26px;
     font-size: small;
@@ -231,7 +240,7 @@ body{
     font-weight: bold;
   }
   .border-redius-div-white {
-    border: 1px solid gray;
+    border: 1px solid var(--gray);
     display: inline-block;
     padding: 1% 4%;
     border-radius: 18px;
@@ -242,15 +251,90 @@ body{
   }
 
   .social-icon:hover {
-    color: white;
-    background-color: black;
-    border: black;
+    color: var(--white);
+    background-color: var(--black);
+    border: var(--black);
     transition: all .3s linear;
   }
   .social-icon-hover:hover {
-    color: white;
-    background-color: black;
-    border: black;
+    color: var(--white);
+    background-color: var(--black);
+    border: var(--black);
     transition: all .3s linear;
   }
+/* 
+  <!-- =======================================================================================
+    
+        mobile view
+    
+  ==============================================================================================--> */
+
+@media only screen and (max-width:600px) {
+
+:root{
+  --black:#fff;
+  --white:#000;
+  --gray:#808080;
+  --grayTran:808080a6;
+
+
+}
+body{
+  color: var(--black);
+  background-color: var(--white);
+}
+
+.title-div-social {
+  display: block;
+}
+.title-div {
+  width: 100%;
+}
+.main {
+  display: block;
+}
+.header {
+  margin-bottom: 18%;
+}
+.user-img{
+  border-radius: 0;
+  width: 170px;
+}
+.user-image {
+  width: 100%;
+  height: 170px;
+  background-color: #fffc45;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.profile-image-details {
+  grid-area: 1/1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.all-details-in {
+  display: block;
+}
+.two-part {
+  margin: 10% 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
 
